@@ -1145,7 +1145,8 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		background-image: url(../.../images/Windows98 Background.jpeg);
+		background: rgb(249,245,235);
+		background: radial-gradient(circle, rgba(249,245,235,1) 0%, rgba(228,220,207,1) 100%);
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
